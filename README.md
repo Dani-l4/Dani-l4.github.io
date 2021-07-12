@@ -1,4 +1,4 @@
-- 👋 Hi, I’m @Dani-l4
+- 👋 Hi, I’m Данил Мирошниченко
 - 👀 I’m interested in programming
 - 🌱 I’m currently learning python, HTML, CSS, JS
 - 💞️ I’m looking to collaborate on ...
