@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Сайт-Визитка(домашнее задание)</title>
+</head>
+<body>
+	<header>
+		<nav>
+			<div class="logo">Андрей Браун</div>
+			<div class="menu">
+				<ul>
+					
+					<li>Обо мне</li>
+					<li>Услуги</li>
+					<li>Кейсы</li>
+					<li>Прайс</li>
+					<li>Отзывы</li>
+					<li>Контакты</li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+	<div class="main">
+		<div class="title_container">
+			<h1>Привет <br> Я Андрей Браун</h1>
+			<img src="img\Парень.png" alt="Фото парня">
+			<h4>full-stack web developer</h4>
+			<input type="submit" value="Обо мне">
+			<input type="submit" value="Мои работы">
+		</div>
+	</div>
+	<div class="aboutMe"> 
+		<h2>ОБО МНЕ</h2>
+		<img src="C:\Users\miras\Desktop\Progaming\img\фотка.png " alt="Круглое фото">
+		<p>Lorem, ipsum dolor sit amet, consectetur adipisicing elit. Quis dolore laborum iure neque repellat inventore accusamus fugit! Voluptas, asperiores, voluptatibus!</p>
+		<p>Lorem, ipsum dolor sit amet, consectetur adipisicing elit. Quis dolore laborum iure neque repellat inventore accusamus fugit! Voluptas, asperiores, voluptatibus!</p>
+		<input type="submit" value="Скачать резюме">
+	</div>
+	<div class="whatCanIDo">
+		<h2>ЧТО Я УМЕЮ</h2>
+		<div>
+			<img src="" alt="Здесь картинка ноута">
+			<h4>Веб-дизайн</h4>
+			<p>Lorem ipsum dolor, sit amet consectetur adipisicing, elit. Ex, itaque?</p>
+		</div>
+		<div>
+			<img src="" alt="Здесь картинка значка разработки">
+			<h4>Разработка</h4>
+			<p>Lorem ipsum, dolor sit amet consectetur adipisicing, elit. Voluptatem, beatae.</p>
+		</div>
+		<div>
+			<img src="" alt="Здесь картинка ракеты">
+			<h4>CEO-оптимизация</h4>
+			<p>Lorem ipsum dolor, sit amet consectetur adipisicing, elit. Sequi, optio.</p>
+		</div>
+		<div>
+			<img src="" alt="Здесь картинка громофона">
+			<h4>Маркетинг</h4>
+			<p>Lorem ipsum, dolor sit amet, consectetur adipisicing elit. Earum, repudiandae.</p>
+		</div>
+	</div>
+	<div class="Case"> 
+		<h2>КЕЙСЫ</h2>
+		<h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium quos natus distinctio quia atque ducimus.</h5>
+		<img src="" alt="Скриншоты проектов">
+		<div class="info">
+			<table> <!--почему-то тэг th отображается ниже,  чем само значение ячейки. Пришлось поменять местами -->
+				<tr>
+					<th>Some company</th>
+				</tr>
+				<tr>CLIENT:</tr>
+			</table>
+			<table>
+				<tr>
+					<th><a href="https://www.somedomain.com">https://www.somedomain.com</a></th>
+				</tr>
+				<tr>WEBSITE</tr>
+			</table>
+			<h4>Название проекта</h4>
+			<p>Lorem ipsum dolor sit, amet, consectetur adipisicing elit. Dignissimos in molestiae magni esse repudiandae laborum totam, officia facere possimus repellendus veritatis, assumenda, eveniet perspiciatis quaerat. Provident sit eos rem reiciendis vero. Velit optio aperiam officia.</p>
+			<input type="submit" value="VISIT LIVE SITE">
+		</div>
+	</div>
+	<div class="CalculateCost">
+		<form action="">
+			<h2>Расчёт стоимости</h2>
+			<h4>ТИП САЙТА</h4>
+			<select name="type" id="type" placeholder="Выберите пункт"> <!-- Думал как сделать прозрачный текст. Не получилось. Придумал, что можно сделать такой один из вариантов выбора, но он же не будет прозрачным. Я поставил значение 0, а потом в логике сайта можно реализовать, что если 0, то не пропустит -->
+				<option value="0">Выберете пункт</option>
+				<option value="1">Option 2</option>
+				<option value="2">Option 3</option>
+			</select>
+			<h4>Дизайн</h4>
+			<select name="design" id="design">
+				<option value="0">Выберете пункт</option>
+				<option value="1">Option 2</option>
+				<option value="2">Option 3</option>
+			</select>
+			<h4>Адаптивность</h4>
+			<select name="adaptive" id="adaptive">
+				<option value="0">Выберете пункт</option>
+				<option value="1">Option 2</option>
+				<option value="2">Option 3</option>
+			</select>
+		</form>
+	</div>
+	<table>
+		<tr>
+			<th>Сроки</th>
+			<th>0</th>
+		</tr>
+		<tr>
+			<th>Стоимость</th>
+			<th>0</th>
+		</tr>
+	</table>
+	<div class="statistics">
+		<div>
+			<h2>НЕМНОГО СТАТИСТИКИ</h2>
+		<div>
+			<img src="" alt="Картинка смайла">
+			<h3>120</h3>
+			<span>СЧАСТЛИВЫХ КЛИЕНТОВ</span>
+		</div>
+		<div>
+			<img src="" alt="Значок разработки">
+			<h3>4600</h3>
+			<span>ЧАСОВ РАБОТЫ</span>
+		</div>
+		<div>
+			<img src="" alt="Здесь картинка чекбокса">
+			<h3>340</h3>
+			<span>ПРОЕКТОВ ЗАВЕРШЕНО</span>
+		</div>
+		<div>
+			<img src="" alt="Здесь картинка кубка">
+			<h3>23</h3>
+			<span>НАГРАД ПОЛУЧЕНО</span>
+		</div>
+		</div>
+	</div>
+	<div>
+		<h2>ОТЗЫВЫ</h2>
+		<img src="" alt="Здесь картинка/аватарка клиента">
+		<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga eos quam, iusto impedit magni quas id in voluptatum aspernatur voluptatibus?</p>
+		<p>Имя, должность, место работы</p>
+	</div>
+	<div class="contacts">
+		<h2>МОИ КОНТАКТЫ</h2>
+		<h5>Lorem ipsum, dolor sit amet consectetur adipisicing, elit. Tempore, omnis.</h5>
+		<div>
+			<img src="" alt="Картинка точки на карте">
+			<br><span>Санкт-Петербург<br>Невский проспект 11</span>
+		</div>
+		<div>
+			<img src="" alt="Картинка конверта">
+			<br><span>info@companyname.com</span>
+		</div>
+		<div>
+			<img src="" alt="Картинка телефона">
+			<br><span>+799999999</span>
+		</div>
+	</div>
+	<h4>ОСТАВЬТЕ МНЕ СООБЩЕНИЕ</h4>
+		<form action="#">
+		<div>
+			<input type="text" placeholder="Имя">
+			<input type="text" placeholder="Email">
+		</div>
+		<div>
+			<textarea name="message" id="msg" cols="30" rows="10" placeholder="Сообщение"></textarea>
+		</div>
+		<input type="submit" value="Отправить">
+	</form>
+	<footer>
+	<div class="social">
+		<a href="#" target="_blank"><img src="" alt="Соц. Сеть1"></a>
+		<a href="#" target="_blank"><img src="" alt="Соц. Сеть2"></a>
+		<a href="#" target="_blank"><img src="" alt="Соц. Сеть3"></a>
+		<a href="#" target="_blank"><img src="" alt="Соц. Сеть4"></a>
+		<a href="#" target="_blank"><img src="" alt="Соц. Сеть5"></a>
+		<a href="#" target="_blank"><img src="" alt="Соц. Сеть6"></a>
+	</div>
+	<div class="map">
+		<a href="на карту"></a>
+	</div>
+	
+		<h5>Copyright©2021Андрей Браун. Design by Danil</h5>
+	</footer>
+</body>
+</html>
