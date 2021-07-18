@@ -28,7 +28,7 @@ nav {
 .main {
 	width: 100%;
 	height: calc(100% - 60px);
-	background: url(../img/парень.png) 90% 100%/auto 85% no-repeat , url(../img/main_bg.jpg) center/cover no-repeat;
+	background: url(../img/Парень.png) 90% 100%/auto 85% no-repeat , url(../img/main_bg.jpg) center/cover no-repeat;
 }
 .title_container {
 	float: left;
@@ -593,17 +593,42 @@ nav {
 
 }
 .social{
-	display: inline-block;
-	margin-top: 43px;
-	width: 419px;
-	height: 80px;
-	padding-left: 697px;
-	float: left;
-
-}
-.social img{
 	display: block;
-	pisition: absolute;
-	width: 28px;
+	margin-top: 43px;
+	width: 450px;
+ 	margin-left: 698px;
+}
+.social a{
+	width: 20px;
+	margin-left: 55px;
 	float: left;
+}
+.footer {
+	width: 100%;
+	height: 442px;
+	float: left;
+}
+.map {
+	width: 100%;
+	height: 350px;
+	background: url(../img/mapBG.jpg) no-repeat;
+}
+.map input{
+	background-color: #ffffff;
+	padding: 18px 30px;
+	color: #000000;
+	font-size: 20px;
+	font-weight: 600;
+	margin:  142px 0px 0px 864px;
+}
+.copyr h5{
+	color: #ffffff;
+	margin-bottom: 839px;
+	padding: 43px 0px 0px 829px;
+	font-weight: 500;
+}
+.copyr{
+	width: 100%;
+	height: 92px;
+	background-color: #354051;
 }
