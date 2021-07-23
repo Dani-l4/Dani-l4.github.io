@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Сайт-Визитка(домашнее задание)</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<header>
+		<nav>
+			<div class="logo">Андрей Браун</div>
+			<div class="menu">
+				<ul>	
+					<li><a href="#">Обо мне</a></li>
+					<li><a href="#">Услуги</a></li>
+					<li><a href="#">Кейсы</a></li>
+					<li><a href="#">Прайс</a></li>
+					<li><a href="#">Отзывы</a></li>
+					<li><a href="#">Контакты</a></li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+	<section>
+	<div class="main">
+		<div class="title_container">
+			<h1>Привет <br> Я Андрей Браун</h1>
+			<h4>Full-stack web developer </h4>
+			<input type="submit" value="Обо мне">
+			<input type="submit" value="Мои работы">
+		</div>
+	</div>
+	</section>
+	<section>
+	<div class="aboutMe"> 
+		<h2>ОБО МНЕ</h2>
+		<hr class="line">
+		<img src="img/фотка.png" alt="фотка парня">
+		<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo rerum tempora rem. Accusantium cupiditate, perferendis provident laboriosam iusto quia culpa sunt harum dolor magni dolores error eum reiciendis quo ea deleniti.</p>
+		<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos officiis nam eius, doloremque quos minima cumque delectus magni, tenetur. Reiciendis facere quos nemo molestias adipisci quaerat suscipit voluptas? Quidem, non, soluta!</p>
+		<input type="submit" value="Скачать резюме">
+	</div>
+	</section>
+	<section>
+	<div class="whatCanIDo">
+		<h2>ЧТО Я УМЕЮ</h2>
+		<hr class="line">
+		<div class="abilities">
+			<div class="wd">
+				<img src="img/ноут.png" alt="Здесь картинка ноута">
+				<h4>Веб-дизайн</h4>
+				<p>Lorem ipsum dolor, sit amet consectetur adipisicing, elit. Ex, itaque?</p>
+			</div>
+			<div class="dev">
+				<img src="img/знак.png" alt="Здесь картинка значка разработки">
+				<h4>Разработка</h4>
+				<p>Lorem ipsum, dolor sit amet consectetur adipisicing, elit. Voluptatem, beatae.</p>
+			</div>
+			<div class="CEO">
+				<img src="img/ракета.png" alt="Здесь картинка ракеты">
+				<h4>CEO-оптимизация</h4>
+				<p>Lorem ipsum dolor, sit amet consectetur adipisicing, elit. Sequi, optio.</p>
+			</div>
+			<div class="sale">
+				<img src="img/граммофон.png" alt="Здесь картинка громофона">
+				<h4>Маркетинг</h4>
+				<p>Lorem ipsum, dolor sit amet, consectetur adipisicing elit. Earum, repudiandae.</p>
+			</div>
+		</div>
+	</div>
+	</section>
+	<section>
+	<div class="Case"> 
+		<h2>КЕЙСЫ</h2>
+		<hr class="line">
+		<h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium quos natus distinctio quia atque ducimus.</h5>
+		<img src="img/screenShots.png" alt="Скриншоты проектов" id="screenShots">
+		<div class="info">
+			<div class="CW"> 
+				<h4>CLIENT:</h4><span>Какая-то компания</span>
+				<h4 id="site">WEBSITE:</h4><span><a href="https://somedomain.com">https://somedomain.com</a></span>
+				<a href="#">
+				<input type="submit" value="VISIT LIVE SITE">
+				</a>
+			</div>
+				<h4>Название проекта</h4>
+				<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio accusantium deserunt necessitatibus nesciunt, totam quos aut odio cumque ab eum, sequi dicta assumenda ratione ipsa error sunt consectetur animi, esse temporibus, maiores tempora quam. Optio rem laboriosam omnis maxime, illo. In ipsam tenetur vitae dolor suscipit aliquid, non placeat, animi facilis magni aspernatur ratione doloremque reprehenderit temporibus praesentium distinctio dolorem quis debitis natus ullam inventore alias dolorum expedita rerum. Distinctio reprehenderit nostrum quidem doloribus tenetur, praesentium suscipit nihil, sint. Fuga.</p>
+						
+		</div>
+	</div>
+	</section>
+	<section>
+	<div class="CalculateCost">
+		<form action="#">
+			<h2>Расчёт стоимости</h2>
+			<h4>ТИП САЙТА</h4>
+			<select name="type" id="type" placeholder="Выберите пункт"> <!-- Думал как сделать прозрачный текст. Не получилось. Придумал, что можно сделать такой один из вариантов выбора, но он же не будет прозрачным. Я поставил значение 0, а потом в логике сайта можно реализовать, что если 0, то не пропустит -->
+				<option value="0">Выберете пункт</option>
+				<option value="1">Option 2</option>
+				<option value="2">Option 3</option>
+			</select>
+			<h4>ДИЗАЙН</h4>
+			<select name="design" id="design">
+				<option value="0">Выберете пункт</option>
+				<option value="1">Option 2</option>
+				<option value="2">Option 3</option>
+			</select>
+			<h4>АДАПТИВНОСТЬ</h4>
+			<select name="adaptive" id="adaptive">
+				<option value="0">Выберете пункт</option>
+				<option value="1">Option 2</option>
+				<option value="2">Option 3</option>
+			</select>
+		</form>
+		<hr class="line2">
+	</div>
+	<div class="results">
+		<p>Сроки</p><span>0</span>
+		
+		<br><p>Стоимость</p><span>0</span>
+		
+	</div>
+	</section>
+	<section>
+	<div class="statistics">
+		<div>
+			<h2>НЕМНОГО СТАТИСТИКИ</h2>
+			<hr class="line">
+		<div class="smile">
+			<img src="img/смайл.png" alt="Картинка смайла">
+			<h3>120</h3>
+			<span>СЧАСТЛИВЫХ КЛИЕНТОВ</span>
+		</div>
+		<div class="time">
+			<img src="img/скобки.png" alt="Значок разработки">
+			<h3>4600</h3>
+			<span>ЧАСОВ РАБОТЫ</span>
+		</div>
+		<div class="success">
+			<img src="img/галочка.png" alt="Здесь картинка чекбокса">
+			<h3>340</h3>
+			<span>ПРОЕКТОВ ЗАВЕРШЕНО</span>
+		</div>
+		<div class="awards">
+			<img src="img/кубок.png" alt="Здесь картинка кубка">
+			<h3>23</h3>
+			<span>НАГРАД ПОЛУЧЕНО</span>
+		</div>
+		</div>
+	</div>
+	</section>
+	<section>
+	<div class="reviews">
+		<h2>ОТЗЫВЫ</h2>
+		<hr class="line">
+		<img src="img/client.png" alt="Здесь картинка/аватарка клиента">
+		<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam, unde nostrum enim! Fugit quas iure dolores neque praesentium deserunt soluta!</p>
+		<p ><span id="Name">Имя</span>, должность, место работы</p>
+		<div class ="input">
+			<input type="radio" name="client">
+			<input type="radio" name="client">
+			<input type="radio" name="client">
+		</div>
+	</div>
+	</section>
+	<section>
+	<div class="contacts">
+		<h2>МОИ КОНТАКТЫ</h2>
+		<hr class="line">
+		<h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum nostrum corrupti optio quod excepturi, libero.</h5>
+		<div class="geo">
+			<img src="img/гео.png" alt="Гео">
+			<br><span>Санкт-Петербург<br>Невский проспект 11</span>
+		</div>
+		<div class="post">
+			<img src="img/конверт.png" alt="Картинка конверта">
+			<br><span>info@companyname.com</span>
+		</div>
+		<div class="phone">
+			<img src="img/труба.png" alt="Картинка телефона">
+			<br><span>+799999999</span>
+		</div>
+		<h4>ОСТАВЬТЕ МНЕ СООБЩЕНИЕ</h4>
+		<form action="#">
+			<div>
+				<input type="text" placeholder=" Имя" id="name">
+				<input type="text" placeholder=" Email" id="mail">
+			</div>
+			<div>
+				<textarea name="message" id="msg" cols="30" rows="10" placeholder="Сообщение"></textarea>
+			</div>
+			<input type="submit" value=" Отправить" id="send">
+		</form>
+		<div class="social">
+			<a href="#" target="_blank"><img src="img/fb.png" alt="Соц. Сеть1"></a>
+			<a href="#" target="_blank"><img src="img/twit.png" alt="Соц. Сеть2"></a>
+			<a href="#" target="_blank"><img src="img/ww.png" alt="Соц. Сеть3"></a>
+			<a href="#" target="_blank"><img src="img/git.png" alt="Соц. Сеть4"></a>
+			<a href="#" target="_blank"><img src="img/inst.png" alt="Соц. Сеть5"></a>
+			<a href="#" target="_blank"><img src="img/in.png" alt="Соц. Сеть6"></a>
+		</div>
+	</div>
+	</section>
+	<footer class="footer">
+	<div class="map">
+		<a href="на карту"><input type="submit" value="I'M HERE"></a>
+	</div>
+	<div class="copyr">
+		<h5>Copyright©2021Андрей Браун. Design by Danil</h5>
+	</div>
+	</footer>
+</body>
+</html>
