@@ -1,0 +1,51 @@
+@font-face {
+	font-family: 'FranklinGothic';
+	src: url('../fonts/framd.eot');
+	src: local('☺'), url('../fonts/framd.woff') format('woff'), url('../fonts/framd.ttf') format('truetype'), url('../fonts/framd.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+* {
+	box-sizing: border-box;
+}
+.main{
+	height: 100%;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+.container{
+	max-width: 1100px;
+	margin: 0 auto;
+}
+.header{
+	position: fixed;
+	background-color: #344051;
+	width: 100%;
+	color: #fff;
+}
+.header__row{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 60px;
+}
+.header__logo{
+	color: #fff;
+	font-size: 28px;
+}
+.header__link{
+	color: #fff;
+	margin-left: 38px;
+	text-transform: uppercase;
+}
+.header__link:visited{
+	color: #fff;
+}
+.main__body{
+	height: 100%;
+	width: 100%;
+	background: url(img/main_bg.jpg);
+	display: flex;
+	z-index: 3;
+}
