@@ -8,39 +8,44 @@
 	<title>Сайт-визитка</title>
 </head>
 <body>
-<div class="wrapper">
+<header class="header">
+	<div class="container">
+	<div class="header__row">
+		<div class="header__logo">андрей браун</div>
+		<nav class="menu">
+		<ul class="menu__list">
+			<li><a href="#" class="menu__link">обо мне</a></li>
+			<li><a href="#" class="menu__link">услуги</a></li>
+			<li><a href="#" class="menu__link">кейсы</a></li>
+			<li><a href="#" class="menu__link">прайс</a></li>
+			<li><a href="#" class="menu__link">отзывы</a></li>
+			<li><a href="#" class="menu__link">контакты</a></li>
+		</ul>
+		</nav>
+	</div>
+	</div>
+</header>
 <section class="main">
-	<header class="header">
-		<div class="container">
-			<div class="header__logo">Андрей Браун</div>
-			<nav class="header__links">
-				<a href="#" class="header__link">Обо мне</a>
-				<a href="#" class="header__link">услуги</a>
-				<a href="#" class="header__link">кейсы</a>
-				<a href="#" class="header__link">прайс</a>
-				<a href="#" class="header__link">отзывы</a>
-				<a href="#" class="header__link">контакты</a>
-			</nav>
+	<div class="container">
+		<div class="main__wrapper">
+		<div class="info">
+			<div class="info__name"><h1>Привет<br>Я Андрей Браун</h1></div>
+          	<div class="info__text text">Фулл стек веб-разработчик и Android-разработчик</div> 
+			<button class="info__btn btn">Обо мне</button>
+			<button class="info__btn btn">Мои работы</button>
 		</div>
-	</header>
-	<div class="main-body">
-		<div class="container">
-			<div class="main__info">
-				<div class="main__title">Привет<br>Я Андрей Браун</div>
-				<div class="main__text">Фулл стек веб-разработчик и Android разработчик</div>
-				<button class="main__btn btn">Обо мне</button>
-				<button class="main__btn btn">Мои работы</button>
-			</div>
 		</div>
 	</div>
 </section>
 <section class="about">
 	<div class="container">
 		<div class="about__title title">Обо мне</div>
-		<div class="about__image"><img src="../img/фотка.png" alt=""></div>
-		<p class="about__text text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit, itaque error odio dolor, magnam tempore sit corrupti officia aut voluptates veniam illum excepturi cupiditate eligendi voluptatibus culpa qui ducimus accusantium at enim repellat.</p>
-		<p class="about__text text">Lorem ipsum, dolor sit amet consectetur adipisicing, elit. Accusamus eius distinctio, earum voluptas esse illo unde reprehenderit tempore optio perferendis tenetur, voluptatum aut consequatur quasi, aliquam. Vero iure nihil, quae odio culpa, unde!</p>
+		<div class="about__image"><img class="about_img" src="img/фотка.png" alt=""></div>
+		<p class="about__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit, itaque error odio dolor, magnam tempore sit corrupti officia aut voluptates veniam illum excepturi cupiditate eligendi voluptatibus culpa qui ducimus accusantium at enim repellat.</p>
+		<p class="about__text">Lorem ipsum, dolor sit amet consectetur adipisicing, elit. Accusamus eius distinctio, earum voluptas esse illo unde reprehenderit tempore optio perferendis tenetur, voluptatum aut consequatur quasi, aliquam. Vero iure nihil, quae odio culpa, unde!</p>
+		<div class="btn__row">
 		<button class="about__btn btn">Скачать резюме</button>
+		</div>
 	</div>
 </section>
 <section class="ICan">
@@ -48,23 +53,23 @@
 		<div class="ICan__title title">Что я умею</div>
 		<div class="ICan__row">
 			<div class="ICan__item">
-				<div class="ICan__image"> <img src="" alt=""></div>
+				<div class="ICan__image"> <img calss="ICan__img" src="img/ноут.png" alt=""></div>
 				<div class="ICan__subtitle">Веб-дизайн</div>
 				<p class="ICan__text text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad voluptatem, ea, voluptatibus maxime dignissimos velit.</p>
 			</div>
 			<div class="ICan__item">
-				<div class="ICan__image"> <img src="" alt=""></div>
-				<div class="ICan__subtitle">Веб-дизайн</div>
-				<p class="ICan__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad voluptatem, ea, voluptatibus maxime dignissimos velit.</p>
-			</div>
-			<div class="ICan__item">
-				<div class="ICan__image"> <img src="" alt=""></div>
-				<div class="ICan__subtitle">Веб-дизайн</div>
+				<div class="ICan__image"> <img calss="ICan__img" src="img/знак.png" alt=""></div>
+				<div class="ICan__subtitle">Разработка</div>
 				<p class="ICan__text text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad voluptatem, ea, voluptatibus maxime dignissimos velit.</p>
 			</div>
 			<div class="ICan__item">
-				<div class="ICan__image"> <img src="" alt=""></div>
-				<div class="ICan__subtitle">Веб-дизайн</div>
+				<div class="ICan__image"> <img calss="ICan__img" src="img/ракета.png" alt=""></div>
+				<div class="ICan__subtitle">CEO-Оптимизация</div>
+				<p class="ICan__text text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad voluptatem, ea, voluptatibus maxime dignissimos velit.</p>
+			</div>
+			<div class="ICan__item">
+				<div class="ICan__image"> <img calss="ICan__img" src="img/граммофон.png" alt=""></div>
+				<div class="ICan__subtitle">Маркетинг</div>
 				<p class="ICan__text text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad voluptatem, ea, voluptatibus maxime dignissimos velit.</p>
 			</div>
 		</div>
@@ -73,15 +78,15 @@
 <section class="case">
 	<div class="container">
 	<div class="case__title title">Кейсы</div>
-	<p class="case__text text">Lorem ipsum dolor, sit amet consectetur adipisicing, elit. Omnis nihil, a dignissimos nostrum possimus at labore iure quasi?</p>
-	<div class="case__image"><img src="" alt=""></div>
+	<p class="case__subtitle text">Lorem ipsum dolor, sit amet consectetur adipisicing, elit. Omnis nihil, a dignissimos nostrum possimus at labore iure quasi?</p>
+	<div class="case__image"><img src="img/screenShots.png" alt=""></div>
 	<div class="case__row">
 		<div class="case__main">
 			<div class="case__bold">CLIENT</div>
 			<div class="case__text text">какая-то комания</div>
 			<div class="case__bold">WEBSITE</div>
 			<div class="case__text text"><a href="http://www.somedomain.com">http://www.somedomain.com</a></div>	
-			<button class="case__btn">visit live site</button>
+			<input class="case__btn" type="submit" value="visit live site">
 		</div>
 		<div class="case__info">
 			<div class="case__bold">Название проекта</div>
@@ -104,7 +109,7 @@
 			</div>
 		</div>
 		<div class="calcCostRow">
-			<div class="calcCost__label">тип сайта</div>
+			<div class="calcCost__label">дизайн</div>
 			<div class="calcCostSelect">
 			<select name="" id="">
 				<option value="">Option 1</option>
@@ -114,17 +119,7 @@
 			</div>
 		</div>
 		<div class="calcCostRow">
-			<div class="calcCost__label">тип сайта</div>
-			<div class="calcCostSelect">
-			<select name="" id="">
-				<option value="">Option 1</option>
-				<option value="">Option 2</option>
-				<option value="">Option 3</option>
- 			</select>
-			</div>
-		</div>
-		<div class="calcCostRow">
-			<div class="calcCost__label">тип сайта</div>
+			<div class="calcCost__label">адаптивность</div>
 			<div class="calcCostSelect">
 			<select name="" id="">
 				<option value="">Option 1</option>
@@ -150,24 +145,24 @@
 		<div class="statistics__title title">немного статистики</div>
 		<div class="statistics__row">
 			<div class="statistics__item">
-				<div class="staticstic__image"><img src="" alt=""></div>
+				<div class="staticstic__image"><img src="img/смайл.png" alt=""></div>
 				<div class="statistics__subtitle">120</div>
 				<div class="statistics__text text">Стастливых клиентов</div>
 			</div>
 			<div class="statistics__item">
-				<div class="staticstic__image"><img src="" alt=""></div>
-				<div class="statistics__subtitle">120</div>
-				<div class="statistics__text text">Стастливых клиентов</div>
+				<div class="staticstic__image"><img src="img/скобки.png" alt=""></div>
+				<div class="statistics__subtitle">4,600</div>
+				<div class="statistics__text text">часов работы</div>
 			</div>
 			<div class="statistics__item">
-				<div class="staticstic__image"><img src="" alt=""></div>
-				<div class="statistics__subtitle">120</div>
-				<div class="statistics__text text">Стастливых клиентов</div>
+				<div class="staticstic__image"><img src="img/галочка.png" alt=""></div>
+				<div class="statistics__subtitle">340</div>
+				<div class="statistics__text text">прокетов завершено</div>
 			</div>
 			<div class="statistics__item">
-				<div class="staticstic__image"><img src="" alt=""></div>
-				<div class="statistics__subtitle">120</div>
-				<div class="statistics__text text">Стастливых клиентов</div>
+				<div class="staticstic__image"><img src="img/кубок.png" alt=""></div>
+				<div class="statistics__subtitle">23</div>
+				<div class="statistics__text text">наград получено</div>
 			</div>
 		</div>
 	</div>
@@ -175,12 +170,16 @@
 <section class="review">
 	<div class="container">
 		<div class="review__title title">отзывы</div>
-		<div class="review__photo"><img src="" alt=""></div>
+		<div class="review__photo"><img src="img/client.png" alt="фото клиента"></div>
 		<div class="review__text text">Lorem ipsum dolor sit amet, consectetur, adipisicing elit. Aliquid inventore cupiditate qui, nesciunt mollitia perspiciatis, laudantium incidunt iste adipisci id cumque quidem dicta, doloribus debitis minus laboriosam, similique quo! Illum, cumque?</div>
-		<div class="review__client text"><span>Михаил</span></div> Ген директор ПАО "Газпром".</div>
+		<div class="review__client text"><span>Михаил, </span> Ген директор ПАО "Газпром".</div>
+		<div class="clients-row">
+		<div class="row__container">
 		<input type="radio" name="client">
 		<input type="radio" name="client">
 		<input type="radio" name="client">
+		</div>
+		</div>
 	</div>
 </section>
 <section class="contacts">
@@ -189,37 +188,39 @@
 		<div class="contacts__text text">Lorem ipsum dolor, sit, amet consectetur adipisicing elit. Aperiam accusamus tempora minus, odio, labore eum?</div>
 		<div class="contacts__row">
 			<div class="contacts__item">
-				<div class="contacts__image"><img src="" alt=""></div>
-				<div class="contacts__text text"></div>
+				<div class="contacts__image"><img src="img/гео.png" alt=""></div>
+				<div class="contacts__text text">Санкт-Петербург<br>Невский проспект</div>
 			</div>
 			<div class="contacts__item">
-				<div class="contacts__image"><img src="" alt=""></div>
-				<div class="contacts__text text"></div>
+				<div class="contacts__image"><img src="img/конверт.png" alt=""></div>
+				<div class="contacts__text text">info@companyname.com</div>
 			</div>
 			<div class="contacts__item">
-				<div class="contacts__image"><img src="" alt=""></div>
-				<div class="contacts__text text"></div>
+				<div class="contacts__image"><img src="img/труба.png" alt=""></div>
+				<div class="contacts__text text"><a href="tel:+79999999999">+7 999 999- 99-99</a></div>
 			</div>
 		</div>
 		<div class="contacts__subtitle">Оставьте мне сообщение</div>
 		<form action="#" class="contacts__form">
 			<div class="form__row">
-				<input type="text">
-				<input type="email">
+				<input type="text" placeholder="Имя">
+				<input type="email" placeholder="Email">
 			</div>
 			<div class="form__row">
-				<textarea name="" id="" cols="30" rows="10"></textarea>
+				<textarea name="" id="" cols="30" rows="10" placeholder="Сообщение"></textarea>
 			</div>
+			<div class="btn-form__row">
 			<input type="submit" class="contacts__btn">
+			</div>
 		</form>
 		<div class="contacts__footer">
-			<div class="contacts__row">
-				<div class="contacts__link"><a href="#"><img src="" alt=""></a></div>
-				<div class="contacts__link"><a href="#"><img src="" alt=""></a></div>
-				<div class="contacts__link"><a href="#"><img src="" alt=""></a></div>
-				<div class="contacts__link"><a href="#"><img src="" alt=""></a></div>
-				<div class="contacts__link"><a href="#"><img src="" alt=""></a></div>
-				<div class="contacts__link"><a href="#"><img src="" alt=""></a></div>
+			<div class="contacts-footer__row">
+				<div class="contacts__link"><a href="#"><img src="img/fb.png" alt=""></a></div>
+				<div class="contacts__link"><a href="#"><img src="img/twit.png" alt=""></a></div>
+				<div class="contacts__link"><a href="#"><img src="img/ww.png" alt=""></a></div>
+				<div class="contacts__link"><a href="#"><img src="img/git.png" alt=""></a></div>
+				<div class="contacts__link"><a href="#"><img src="img/inst.png" alt=""></a></div>
+				<div class="contacts__link"><a href="#"><img src="img/in.png" alt=""></a></div>
 			</div>
 		</div>
 	</div>
@@ -233,6 +234,6 @@
 	</div>
 </footer>
 <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>	
-</div>
+
 </body>
 </html>
